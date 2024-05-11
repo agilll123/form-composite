@@ -15,3 +15,16 @@ li
 {
 	list-style-type: none;
 }
+.container
+{
+	max-width: 1520px;
+	width: 100%;
+	padding: 0 20px;
+	margin: 0 auto;
+}
+.container-flex
+{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
