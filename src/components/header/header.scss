@@ -11,14 +11,12 @@ header
 	width: 40px;
 	height: 2px;
 	background: white;
+	transition: all 0,3s;
 }
-.burger__burger-line-small
+.burger__burger-line--small
 {
 	width: 30px;
-	height: 2px;
-	top: 12px;
-	left: 10px;
-	background: white;
+	
 }
 .header__burger
 {
@@ -27,6 +25,12 @@ header
 	gap: 10px;
 	align-items: end;
 	
+}
+.header__burger.active .header__burger-line
+{
+	width: 40px;
+	transform: translate(-1px, -4px) rotate(45deg)
+
 }
 .header__wrap
 {

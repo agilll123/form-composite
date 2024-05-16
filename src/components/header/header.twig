@@ -1,9 +1,9 @@
 <header>
 	<div class="container container-flex">
 		{% include 'assets/svg/logo.svg' %}
-		<div class="header__burger">
+		<div class="header__burger active" onclick="mainObj.header.show(this)">
 			<div class="header__burger-line"></div>
-			<div class="header__burger-line header__burger-small"></div>
+			<div class="header__burger-line header__burger-line--small"></div>
 		</div>
 	</div>
 	<div class="header__wrap">
@@ -37,7 +37,7 @@
 				<a href="#">Контакты</a>
 			</li>
 		</ul>
-		</div>
+	</div>
 		<div class="header__phone">
 			<a href="tel:+7 (495) 21-555-12">+7 (495) 21-555-12</a>
 			<a href="#">info@formcomposite.ru</a>
