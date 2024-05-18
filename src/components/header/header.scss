@@ -26,6 +26,12 @@ header
 	align-items: end;
 	
 }
+.pgone-tab
+{
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
 .header__burger.active .header__burger-line
 {
 	width: 40px;
@@ -92,6 +98,39 @@ color: rgba(255, 255, 255, 1);
 	color: rgba(255, 255, 255, 1);
 	height: 50px;
 	line-height: 50px;
+}
+@media(min-width: 1024px)
+{
+	header
+	{
+		padding: 0 20px;
+	}
+	header svg
+	{
+		width: 211px;
+		height: 50px;
+	}
+	.heqder__link-wrap
+	{
+		display: flex;
+		align-items: center;
+		gap: 77px;
+	}
+	.phone-tab
+	{
+		display: flex;
+		align-items: center;
+		gap: 10px;
+	}
+	.header-wrap
+	{
+		top: 94px;
+	}
+	.phone-tab svg
+	{
+		width: 14px;
+		height: 14px;
+	}
 }
 
 

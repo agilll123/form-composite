@@ -1,12 +1,19 @@
 <header>
 	<div class="container container-flex">
-		{% include 'assets/svg/logo.svg' %}
+		{% include 'assets/svg/logo-mob.svg' %}
+		<div class="header__link-wrap">
+		<div class="phone-tab">
+			<a href="">{% include 'assets/svg/phone-mob.svg' %}</a>
+			<a href="tel:+7 (495) 21-555-12"></a>
+		</div>
+		
 		<div class="header__burger active" onclick="mainObj.header.show(this)">
 			<div class="header__burger-line"></div>
 			<div class="header__burger-line header__burger-line--small"></div>
 		</div>
+		</div>
 	</div>
-	<div class="header__wrap">
+	<div class="header__wrap _header__wrap">
 		<div class="container">
 		<ul class="header__list">
 			<li class="header__list-item">
