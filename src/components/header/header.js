@@ -1,15 +1,17 @@
 mainObj.header =
 {
-	headerwrap.document.queryselector(._headerwrap)
-	show()
+	headerWrap:document.querySelector('._headerWrap'),
+	show(instance)
 	{
 		if(instance.classList.contains('active'))
 		{
-			instance.classLIst.remove('active')
+			instance.classList.remove('active')
+			this.headerWrap.classList.remove('active')
 		}
-		elce
+		else
 		{
-			imstance.classLIst.add('active')
+			instance.classList.add('active')
+			this.headerWrap.classList.add('active')
 		}
 	}
 }
